@@ -1,4 +1,4 @@
-STUDENT COURSE MANAGEMENT SYSTEM - COS201 Programming I
+STUDENT COURSE MANAGEMENT SYSTEM - COS201 Computer Programming I
 Java Swing (graphical interface), 100% Java
 
 HOW TO RUN
@@ -11,7 +11,7 @@ MENU (click a button, or press keys 1 to 7)
 1. Add Course   2. View All Courses   3. Search Course by Code
 4. Compute Total Units   5. Save to File   6. Load from File   7. Exit Program
 
-Courses are saved as plain text (one course per line, e.g. COS201,Programming I,3),
+Courses are saved as plain text (one course per line, e.g. COS201,Computer Programming I,3),
 by default to courses.txt in the project folder.
 
 FILES

@@ -183,7 +183,7 @@ public class Main extends JFrame {
         JTextField titleField = new JTextField(title, 18);
         JTextField unitsField = new JTextField(units, 18);
         JPanel form = formPanel(
-                new String[] {"Course code (e.g. COS201)", "Course title (e.g. Programming I)", "Credit units (1-6)"},
+                new String[] {"Course code (e.g. COS201)", "Course title (e.g. Computer Programming I)", "Credit units (1-6)"},
                 new JTextField[] {codeField, titleField, unitsField});
         focusWhenShown(codeField);
 
@@ -397,7 +397,7 @@ public class Main extends JFrame {
         JLabel title = new JLabel("Student Course Management System");
         title.setFont(new Font(SERIF, Font.BOLD, 24));
         title.setForeground(Color.WHITE);
-        JLabel subtitle = new JLabel("COS201 Programming I, mid-semester lab project");
+        JLabel subtitle = new JLabel("COS201 Computer Programming I, mid-semester lab project");
         subtitle.setFont(new Font(SANS, Font.PLAIN, 13));
         subtitle.setForeground(INK_SOFT);
 

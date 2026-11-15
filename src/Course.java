@@ -76,7 +76,7 @@ public class Course {
 
     // ---------- File conversion ----------
 
-    /** Converts the course to one line of text for saving, e.g. COS201,Programming I,3 */
+    /** Converts the course to one line of text for saving, e.g. COS201,Computer Programming I,3 */
     public String toFileLine() {
         return code + "," + title + "," + units;
     }
